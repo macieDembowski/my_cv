@@ -2,71 +2,79 @@
 <html lang="pl">
     <head>
         <title>CV Maciej Dembowski</title>
+        <link  rel="stylesheet" href="style.css" />
         <meta charset="utf-8"/>
     </head>
     <body>
 
-        <header>
-            <img src="ja.jpg" width="250" height="250">
+        <div class="contaner">
+            <header>
+                <img class="circle" src="images/ja.jpg" >
+                <div>
+                    <h1>Maciej Dembowski</h1>
+                    <span>programista</span>
+                </div>
+                <address>
+                    
+                    <ul>
+                        <li><img class="icon" src="images/home.png"><b>zamjeszkanie:</b> Białystok</li>
+                        <li><img class="icon" src="images/birgtday.png"><b>telfon:</b> 17:03:2003</li>
+                        <li><img class="icon" src="images/mail.png"><b>e-mail:</b> <a href="mailto:maciej0dembowski@gmail.com"> Maciej0Dembowski@gmail.com</a></li>
+                        <li><img class="icon" src="images/phone.png"><b>telfon:</b> <a href="tel:734 473 585"> 734 473 585</a></li>
+                    </ul>
+                
+                </address>
+            </header>
 
-            <h1>Maciej Dembowski</h1>
-
-            <h4>Zawód: programistyczne</h4>
-
-            <div id="person data"></div>
-                adres: ul.Wąska 4/94<br/>
-                kod pocztowy: 15-480 Białystok<br/><br/>
-                e-mail: Maciej0Dembowski@gmail.com<br/>
-                telfon: 734 473 585
-            
-            </div>
-            <div id="language"></div>
-                <h3>Jezyki</h3>
-                <span>
+            <section >
+                <h2>Jezyki</h2>
+                <p>
                     polski: ojczysty<br>
 
                     angjelski: czytanie-ok, słuchanie-ok/średnio, rozmowy-tragedia
-                </span>
-            
-        </header>
+                </p>
+            </section>
 
-        <section>
-
-            <div id="experience">
+            <section >
                 <h2>Dośwjatcznie </h2>
                 <ul>
                     <li>Starz w<a href="https://www.infinity-group.pl"> Infinity-group.</a>  1-31 lipjec 2020</li>
                     <li>Praktyki w <a href="https://www.infinity-group.pl">Infinity-group.</a>  1-30 czerwjec 2021</li>
                 </ul>
 
-            </div>
+            </section>
 
-            <div id="education">
+            <section >
                 <h2>Edukacja </h2>
                 <p>
                    Skoła progamistyczna  <a href="https://www.infotech.edu.pl">Infotech</a>
                 </p>
-            </div>
-            <div id="skills">
+            </section>
+            
+            <section  >
                 <h2>Umjeiętność </h2>
-                <ul>
+                <div class="skill">
+                    <ul>
                     <label><b>języki programowania:</b></label>
                     <li>python</li>
                     <li>css</li>
                     <li>html</li>
                     <li>js</li>
+                    
+                </ul>
+                <ul>
+                    <label><b>bibloteki:</b></label>
+                    <li>Django </li>
                     <li>unity(podstawowo)</li>
                 </ul>
-                <ul>
-                    <label><b>biblotrki:</b></label>
-                    <li>Django </li>
-                </ul>
-            </div>
+                </div>
+                
+            </section>
 
-            <div id="interested">
+            <section >
                 <h2>Zainteresowania </h2>
                 <ul>
-                    <li>Nie rywalizacja!</li>
+                    <li>Nie rywalizacji!</li>
                     <li>Granie w gry</li>
                     <li>Tworzenie gier</li>
                     <li>Aktywnoś fizyczna</li>
@@ -76,9 +84,8 @@
                     
                     
             
-            </div>
-
-        </section>
+            </section>
+        </div>
 
     </body>
 </html>
